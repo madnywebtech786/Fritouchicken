@@ -63,7 +63,7 @@ export default function BestDishesSection({ orderUrl }) {
   ];
 
   return (
-    <section className="relative py-24 bg-white overflow-hidden">
+    <section id="menu" className="relative py-24 bg-white overflow-hidden">
       {/* Decorative Elements */}
       <div className="absolute top-32 right-10 w-64 h-64 bg-secondary/5 rounded-full blur-3xl animate-float"></div>
       <div className="absolute bottom-20 left-10 w-72 h-72 bg-primary/5 rounded-full blur-3xl animate-float" style={{ animationDelay: '1.5s' }}></div>
